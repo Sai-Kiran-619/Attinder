@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add3"
+    tools:context=".ProfileActivity">
+
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/design"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Designation"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/branch"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/design"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:background="@drawable/border" />
+
+    <EditText
+        android:id="@+id/incharge"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/branch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="yr/sec"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <EditText
+        android:id="@+id/strength"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/incharge"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Strength"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strength"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="125dp"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:backgroundTint="#BC56BC"
+        android:text="Upload"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
